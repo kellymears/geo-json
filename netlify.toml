@@ -4,16 +4,16 @@
   status = 200
 
 [[redirects]]
-  from = "/countries/USA/*"
-  to = "/data/countries/:state"
+  from = "/countries/USA"
+  to = "/data/countries/USA.geo.json"
   status = 200
 
 [[redirects]]
   from = "/countries/USA/*"
-  to = "/data/countries/:state"
+  to = "/data/countries/:state.geo.json"
   status = 200
 
 [[redirects]]
   from = "/countries/CAN/*"
-  to = "/data/countries/:province"
+  to = "/data/countries/:province.geo.json"
   status = 200

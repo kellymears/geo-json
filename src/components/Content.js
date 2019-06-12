@@ -4,10 +4,8 @@ import {
   Styled,
 } from 'theme-ui'
 
-import { styles } from './styled'
-
 const Content = () => (
-  <div css={styles.content}>
+  <div>
     <Styled.h1>GEOJSON Server</Styled.h1>
     <Styled.p>Just a place to stash my objects.</Styled.p>
     <Styled.p>Valid requests:</Styled.p>
