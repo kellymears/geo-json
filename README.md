@@ -4,4 +4,4 @@
 
 Place to stash my geo.json for project usage. Netlify offers a real easy/cheap path to a geojson server.
 
-[https://geojson.tinypixel.dev](https://geo.tinypixel.dev)
+[https://tinypixel-geojson.netlify.com](https://tinypixel-geojson.netlify.com)
