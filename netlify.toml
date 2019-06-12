@@ -17,8 +17,3 @@
   from = "/countries/CAN/*"
   to = "/data/countries/:province"
   status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
