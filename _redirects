@@ -1,5 +1,5 @@
 / /build/index.html 200
-/countries /data/countries.geo.json 200
-/countries/USA/:state /data/countries/USA/:state.geo.json 200
-/countries/CAN/:province /data/countries/CAN/:province.geo.json 200
-/countries/:country /data/countries/:country.geo.json 200
+/countries /build/data/countries.geo.json 200
+/countries/USA/:state /build/data/countries/USA/:state.geo.json 200
+/countries/CAN/:province /build/data/countries/CAN/:province.geo.json 200
+/countries/:country /build/data/countries/:country.geo.json 200
