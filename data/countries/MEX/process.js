@@ -12,12 +12,18 @@ geo.features.forEach(feature => {
       "features": [{
         type: 'Feature',
         id: `MEX-${feature.properties.postal}`,
-        properties: { name: feature.properties.name },
+        properties: {
+          name: feature.properties.name,
+          label: {
+            latitude: feature.properties.latitude,
+            longitude: feature.properties.longitude,
+          },
+        },
         geometry: feature.geometry,
       }],
-    }),
-    err: err => console.log(err),
+    })
   }
 
-  op && fs.writeFileSync(op.fileName, op.data, op.err)
+  op && fs.writeFileSync(op.fileName, op.data)
+  op && console.log(op)
 })
